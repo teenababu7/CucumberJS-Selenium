@@ -1,0 +1,49 @@
+[
+  {
+    "description": "    As a user, I need to verify the currency displayed on Mammoth home page",
+    "keyword": "Feature",
+    "name": "Verify Mammoth currency displayed",
+    "line": 1,
+    "id": "verify-mammoth-currency-displayed",
+    "tags": [],
+    "uri": "test\\features\\mammothCurrencyTest.feature",
+    "elements": [
+      {
+        "id": "verify-mammoth-currency-displayed;check-currency",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Check currency",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on Mammoth homepage",
+            "match": {
+              "location": "test\\stepdefinitions\\mammothCurrencyTestStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I need to verify the currency is displayed as \"British Pounds\"",
+            "match": {
+              "location": "test\\stepdefinitions\\mammothCurrencyTestStep.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

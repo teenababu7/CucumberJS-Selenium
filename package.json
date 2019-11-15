@@ -1,0 +1,21 @@
+{
+  "name": "cucumberjshtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -p default -p html_report"
+  },
+  "author": "Teena",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^78.0.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
