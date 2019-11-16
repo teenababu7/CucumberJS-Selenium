@@ -1,6 +1,6 @@
 
 # Getting started: Cucumber-js with Selenium webdriver
-mylearning is a github repository which automates a webbrowser using **CucumberJS with Selenium webdriver**
+This git hub repository aims at automating a webbrowser using **Cucumber.js with Selenium webdriver**
 
 Let's walk through getting setup,
 
