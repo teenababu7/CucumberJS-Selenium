@@ -2,15 +2,15 @@
  * PageObjects and Methods 
  */
 var webdriver = require('selenium-webdriver');
+var expect = require('chai').expect;
 var By = webdriver.By;
 var BasePage = require('./pageBase')
 
 class HomePage extends BasePage {
-    getCurrency() {
+    getCurrency(expectedCurrency) {
         driver.findElement(By.id('currencyMenu')).then(function (text) {
             text.getText().then(function (currency) {
-                console.log('Currency to be used is ' + currency);
-
+               expect(currency).to.equal(expectedCurrency);
             })
         })
     }

@@ -1,11 +1,8 @@
+require('chromedriver');
 var webdriver = require('selenium-webdriver');
 var chrome = require('selenium-webdriver/chrome');
-var path = require('chromedriver').path;
 var properties = require('../utils/properties')
-
-var service = new chrome.ServiceBuilder(path).build();
-chrome.setDefaultService(service);
-var driver = new webdriver.Builder().withCapabilities(webdriver.Capabilities.chrome()).build();
+var driver = new webdriver.Builder().forBrowser('chrome').setChromeOptions(new chrome.Options().headless()).build();
 
 class BasePage{
     /**

@@ -13,9 +13,9 @@ const Report = require('./report');
 
 // Defines a hook which is run before all scenarios.
 // Multiple BeforeAll hooks are executed in the order that they are defined.
-BeforeAll(async function () {
-    console.log("Execute before all hook.");
-});
+// BeforeAll(async function () {
+//     console.log("Execute before all hook.");
+// });
 
 // Defines a hook which is run after all scenarios have completed.
 // Multiple AfterAll hooks are executed in the reverse order that they are defined.

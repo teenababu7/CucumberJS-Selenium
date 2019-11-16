@@ -6,6 +6,7 @@ const reportPath = path.join("reports")
  * Report Related Methods
  */
 class Report {
+    
     /**
      * Generate report
      */
@@ -15,7 +16,7 @@ class Report {
                 jsonFile: reportPath+'/cucumber_report.json',
                 output: reportPath+'/cucumber_report.html',
                 reportSuiteAsScenarios: true,
-                launchReport: true
+                launchReport: false
             };
      
         reporter.generate(options);
