@@ -104,7 +104,7 @@ To prevent users from having to enter the options they use every time. Users can
 
 Please clone this repo and run the following commands:
 
-$ ***git clone https://github.com/teenababu7/mylearning.git***
+$ ***git clone https://github.com/teenababu7/CucumberJS-Selenium.git***
 
 $ ***npm install***
 
